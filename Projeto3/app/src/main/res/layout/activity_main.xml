@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FDFDFE"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/linkd2"
+        android:layout_width="75dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="148dp"
+        android:onClick="gitu"
+        android:text="alava"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.921" />
+
+    <LinearLayout
+        android:layout_width="380dp"
+        android:layout_height="460dp"
+        android:layout_marginStart="32dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.265">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="119dp"
+            android:layout_gravity="center_horizontal|left"
+            android:foregroundGravity="center_vertical"
+            app:srcCompat="@drawable/gith" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="374dp"
+            android:layout_height="88dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/info" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="329dp"
+            android:layout_height="211dp"
+            android:layout_gravity="center"
+            android:foregroundGravity="center"
+            app:srcCompat="@drawable/coisado" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="85dp"
+        android:layout_height="113dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.101"
+        app:srcCompat="@drawable/foto" />
+
+    <Button
+        android:id="@+id/linkd"
+        android:layout_width="75dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="276dp"
+        android:onClick="linkd"
+        android:text="alava"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.921" />
+
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="185dp"
+        android:layout_height="133dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/download" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="120dp"
+        android:layout_height="105dp"
+        android:layout_marginBottom="28dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.422"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/github_icon_2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
