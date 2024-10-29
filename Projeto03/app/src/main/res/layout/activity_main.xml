@@ -68,8 +68,8 @@
 
     <Button
         android:id="@+id/linkd"
-        android:layout_width="75dp"
-        android:layout_height="59dp"
+        android:layout_width="71dp"
+        android:layout_height="72dp"
         android:layout_marginStart="276dp"
         android:onClick="linkd"
         android:text="alava"
